@@ -86,6 +86,7 @@
   --title-color: #757575;
   --white: #ffffff;
   --white-background: #e5e5e5;
+  --footer-background: #2f303a;
 }
 
 body {
@@ -108,6 +109,18 @@ body {
 
 .list {
   list-style: none;
+}
+
+header {
+  background-color: #ececec;
+}
+
+main {
+  background-color: var(--background-color);
+}
+
+.big-title {
+  background-color: var(--footer-background);
 }
 
 .menu-link {
@@ -148,6 +161,7 @@ body {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--white);
   background-color: var(--accent-color);
 }
@@ -162,9 +176,11 @@ body {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
   text-transform: uppercase;
+  color: var(--white);
 }
 
 .section-title {
@@ -172,6 +188,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
@@ -190,4 +207,41 @@ body {
   font-weight: 400;
   line-height: 1.71;
   color: var(--title-color);
+}
+
+.command {
+  background-color: #f5f4fa;
+}
+
+.command-name {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.command-jobs {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+footer {
+  background-color: var(--footer-background);
+}
+
+.logo-web-footer {
+  color: var(--white);
+}
+
+.link-styles {
+  font-style: normal;
+  color: var(--white);
 }
