@@ -15,7 +15,24 @@ main {
   background-color: var(--footer-background);
 }
 
+.hero-content {
+  max-width: 700px;
+  /*display: flex;*/
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+  border-radius: 4px;
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
@@ -40,6 +57,8 @@ main {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white);
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .section-title {
@@ -50,6 +69,19 @@ main {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.features-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-list {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .features-scroll {
@@ -60,16 +92,52 @@ main {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
 .features-description {
   font-weight: 400;
   line-height: 1.71;
   color: var(--title-color);
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.occupation-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.occupation-item-list {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .command {
   background-color: #f5f4fa;
+  padding-top: 0px;
+  margin-top: 94px;
+  padding-bottom: 94px;
+}
+
+.command-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.command-members {
+  display: block;
+  border: 1px;
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc(100% / 4 - 30px);
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .command-name {
@@ -77,9 +145,13 @@ main {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.187;
-  /*text-align: center;*/
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .command-jobs {
@@ -87,7 +159,11 @@ main {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.187;
-  /*text-align: center;*/
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
